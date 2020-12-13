@@ -12,6 +12,8 @@ import { Component, OnInit } from '@angular/core';
     </p>
 
     <shaam-avatar></shaam-avatar>
+
+    <router-outlet name="dialogs"></router-outlet>
   `,
 })
 export class ProfileComponent {
