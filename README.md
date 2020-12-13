@@ -8,11 +8,11 @@ Advanced course in Angular, React, Docker and Kubernetes that was given on Decem
 
 - RXJS
 - Advanced @angular/cli
-- Angular Change Detection
+- Styling
 
 ### Day 2
 
-- Styling
+- Angular Change Detection
 - SSR
 - Docker & Kubernetes
 

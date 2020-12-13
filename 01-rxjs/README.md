@@ -39,6 +39,14 @@ https://nztodo.herokuapp.com/api/tasks/?format=json&search=`<search string>`
 - You can also use `@HostListener` and a subject
 - you can use the **debounceTime** operator to activate an **EventEmitter** after the user finished typing.
 
+### EX1
+
+- Create an Observable that wraps an ajax call to the url: 
+http://nztodo.herokuapp.com/api/tasks/?format=json
+- for the ajax call use the `axios` library
+- The Observable should return an array of `Task` interface
+- attach a listener to that observable
+- Make sure to close the observable after the response is returned
 
 ### Popular operators
 
