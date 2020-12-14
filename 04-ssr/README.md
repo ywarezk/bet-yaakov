@@ -10,6 +10,16 @@
 - prerendering
 - accelerating initialization requests
 
+## SSR Summary
+
+1. do I need SSR? 
+2. write universal code: PLATFORM_ID, isPlatformBrowser
+3. npx ng add @nguniversal/express-engine
+4. npm run ssr:dev
+5. Cache interceptor - to make init ajax calls in the server only
+6. prerender - angular.json
+7. ssr - deploy to a node server
+
 ## EX.
 
 Create an angular website that has routing and navigation bar to the following pages:  

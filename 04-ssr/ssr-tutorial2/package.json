@@ -1,5 +1,5 @@
 {
-  "name": "ssr-tutorial",
+  "name": "ssr-tutorial2",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run ssr-tutorial:serve-ssr",
-    "serve:ssr": "node dist/ssr-tutorial/server/main.js",
-    "build:ssr": "ng build --prod && ng run ssr-tutorial:server:production",
-    "prerender": "ng run ssr-tutorial:prerender"
+    "dev:ssr": "ng run ssr-tutorial2:serve-ssr",
+    "serve:ssr": "node dist/ssr-tutorial2/server/main.js",
+    "build:ssr": "ng build --prod && ng run ssr-tutorial2:server:production",
+    "prerender": "ng run ssr-tutorial2:prerender"
   },
   "private": true,
   "dependencies": {
@@ -47,7 +47,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "protractor": "~7.0.0",
-    "ts-node": "^8.3.0",
+    "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
   }
