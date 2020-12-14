@@ -11,6 +11,7 @@ import { TransferHttpCacheModule } from '@nguniversal/common';
   declarations: [
     AppComponent,
     TodoListComponent
+
   ],
   imports: [
     HttpClientModule,
