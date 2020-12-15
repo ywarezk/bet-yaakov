@@ -30,9 +30,12 @@ https://minikube.sigs.k8s.io/docs/start/
 
 ## Configuring our production
 
-client              ingress controller       ingress            service            pod
+client              ingress controller       ingress            service         deployment - pod
 browser -----------> Nginx                 bet-yaakov.com      bet-yaakov         our app
                                           api.bet-yaakov.com   backend            other pod                 
 
 ## helm
 
+## EX
+
+your next deployment try to do with SSR + Node servcer using docker and kubernetes.
