@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ssr-deployment
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: ssr
+  template:
+    metadata:
+      labels:
+        app: ssr
+    spec:
+      containers:
+      - name: ssr
+        image: academeez/ssr:1.6.0
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 4000
